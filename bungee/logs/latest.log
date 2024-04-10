@@ -79,3 +79,34 @@
 [18:19:39] [Netty Worker IO Thread #2/INFO]: [/[0:0:0:0:0:0:0:1%0]:46198|Dayrod009] -> UpstreamBridge has disconnected
 [18:19:39] [Netty Worker IO Thread #2/INFO]: [Dayrod009] disconnected with: Proxy lost connection to server.
 [18:19:39] [Netty Worker IO Thread #2/INFO]: [/[0:0:0:0:0:0:0:1%0]:46198|Dayrod009] <-> DownstreamBridge <-> [lobby] has disconnected
+[18:44:46] [Netty Worker IO Thread #3/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:41554]: Connected via websocket
+[18:44:46] [Netty Worker IO Thread #3/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:41554]: Origin header is null
+[18:44:46] [Netty Worker IO Thread #3/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:41554]: Logged in as 'Dayrod009'
+[18:44:46] [Netty Worker IO Thread #3/INFO]: [/[0:0:0:0:0:0:0:1%0]:41554|Dayrod009] -> UpstreamBridge has connected
+[18:44:46] [Netty Worker IO Thread #3/INFO]: [Dayrod009|/[0:0:0:0:0:0:0:1%0]:41554] <-> ServerConnector [lobby] has connected
+[18:45:28] [Netty Worker IO Thread #3/INFO]: [Dayrod009] disconnected with: Server closed
+[18:45:28] [Netty Worker IO Thread #3/INFO]: [/[0:0:0:0:0:0:0:1%0]:41554|Dayrod009] -> UpstreamBridge has disconnected
+[18:45:28] [Netty Worker IO Thread #3/INFO]: [/[0:0:0:0:0:0:0:1%0]:41554|Dayrod009] <-> DownstreamBridge <-> [lobby] has disconnected
+[18:46:19] [Netty Worker IO Thread #0/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:39164]: Connected via websocket
+[18:46:19] [Netty Worker IO Thread #0/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:39164]: Origin header is null
+[18:46:19] [Netty Worker IO Thread #0/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:39164]: Logged in as 'Dayrod009'
+[18:46:19] [Netty Worker IO Thread #0/INFO]: [/[0:0:0:0:0:0:0:1%0]:39164|Dayrod009] -> UpstreamBridge has connected
+[18:46:19] [Netty Worker IO Thread #0/WARN]: Error occurred processing connection for Dayrod009 AnnotatedConnectException : finishConnect(..) failed: Connection refused: localhost/127.0.0.1:25565
+[18:46:19] [Netty Worker IO Thread #0/INFO]: [Dayrod009] disconnected with: Could not connect to a default or fallback server. Incorrectly configured address/port/firewall? 
+[18:46:19] [Netty Worker IO Thread #0/INFO]: [/[0:0:0:0:0:0:0:1%0]:39164|Dayrod009] -> UpstreamBridge has disconnected
+[18:49:15] [Netty Worker IO Thread #2/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:50028]: Connected via websocket
+[18:49:15] [Netty Worker IO Thread #2/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:50028]: Origin header is null
+[18:49:15] [Netty Worker IO Thread #2/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:50028]: Logged in as 'Dayrod009'
+[18:49:15] [Netty Worker IO Thread #2/INFO]: [/[0:0:0:0:0:0:0:1%0]:50028|Dayrod009] -> UpstreamBridge has connected
+[18:49:15] [Netty Worker IO Thread #2/INFO]: [Dayrod009|/[0:0:0:0:0:0:0:1%0]:50028] <-> ServerConnector [lobby] has connected
+[18:53:54] [Netty Worker IO Thread #1/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:33270]: Connected via websocket
+[18:53:54] [Netty Worker IO Thread #1/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:33270]: Origin header is http://localhost:8081
+[18:53:54] [Netty Worker IO Thread #1/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:33270]: Logged in as 'Dayrod_009'
+[18:53:54] [Netty Worker IO Thread #1/INFO]: [/[0:0:0:0:0:0:0:1%0]:33270|Dayrod_009] -> UpstreamBridge has connected
+[18:53:54] [Netty Worker IO Thread #1/INFO]: [Dayrod_009|/[0:0:0:0:0:0:0:1%0]:33270] <-> ServerConnector [lobby] has connected
+[18:55:31] [Netty Worker IO Thread #1/INFO]: [/[0:0:0:0:0:0:0:1%0]:33270|Dayrod_009] -> UpstreamBridge has disconnected
+[18:55:31] [Netty Worker IO Thread #1/INFO]: [Dayrod_009] disconnected with: Proxy lost connection to server.
+[18:55:31] [Netty Worker IO Thread #1/INFO]: [/[0:0:0:0:0:0:0:1%0]:33270|Dayrod_009] <-> DownstreamBridge <-> [lobby] has disconnected
+[19:00:53] [Netty Worker IO Thread #2/INFO]: [/[0:0:0:0:0:0:0:1%0]:50028|Dayrod009] -> UpstreamBridge has disconnected
+[19:00:53] [Netty Worker IO Thread #2/INFO]: [Dayrod009] disconnected with: Proxy lost connection to server.
+[19:00:53] [Netty Worker IO Thread #2/INFO]: [/[0:0:0:0:0:0:0:1%0]:50028|Dayrod009] <-> DownstreamBridge <-> [lobby] has disconnected
