@@ -1,0 +1,31 @@
+portals:
+  dirt:
+    world: world
+    x: -13.0
+    y: 64.0
+    z: -56.0
+    x2: -10.0
+    y2: 67.0
+    z2: -56.0
+    type: DEFAULT
+    tpto: world:595:78:320:-184.65002:-10.950003
+  dirt2:
+    world: world
+    x: 594.0
+    y: 82.0
+    z: 317.0
+    x2: 597.0
+    y2: 78.0
+    z2: 317.0
+    type: DEFAULT
+    tpto: world:-12:64:-58:-32.850002:20.700003
+  ryker:
+    world: world
+    x: -490.0
+    y: 63.0
+    z: 137.0
+    x2: -491.0
+    y2: 66.0
+    z2: 137.0
+    type: DEFAULT
+    tpto: world:-500:64:143:-269.91425:19.69853
