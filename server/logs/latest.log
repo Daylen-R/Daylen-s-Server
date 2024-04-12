@@ -1,38 +1,38 @@
-[16:22:16] [Server thread/INFO]: Starting minecraft server version 1.8.8
-[16:22:16] [Server thread/INFO]: Loading properties
-[16:22:16] [Server thread/INFO]: Default game type: SURVIVAL
-[16:22:16] [Server thread/INFO]: This server is running CraftBukkit version git-PaperSpigot-445 (MC: 1.8.8) (Implementing API version 1.8.8-R0.1-SNAPSHOT)
-[16:22:16] [Server thread/INFO]: Debug logging is disabled
-[16:22:16] [Server thread/INFO]: Spigot Timings: true - Verbose: true - Interval: 5m - Length: 60m
-[16:22:16] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[19:29:23] [Server thread/INFO]: Starting minecraft server version 1.8.8
+[19:29:23] [Server thread/INFO]: Loading properties
+[19:29:24] [Server thread/INFO]: Default game type: SURVIVAL
+[19:29:24] [Server thread/INFO]: This server is running CraftBukkit version git-PaperSpigot-445 (MC: 1.8.8) (Implementing API version 1.8.8-R0.1-SNAPSHOT)
+[19:29:26] [Server thread/INFO]: Debug logging is disabled
+[19:29:26] [Server thread/INFO]: Spigot Timings: true - Verbose: true - Interval: 5m - Length: 60m
+[19:29:26] [Server thread/INFO]: Server Ping Player Sample Count: 12
 
-[16:22:16] [Server thread/INFO]: Using 4 threads for Netty based IO
-[16:22:16] [Server thread/INFO]: Data value allowed items: 
-[16:22:16] [Server thread/WARN]: java.lang.NoSuchFieldException: modifiers
+[19:29:26] [Server thread/INFO]: Using 4 threads for Netty based IO
+[19:29:26] [Server thread/INFO]: Data value allowed items: 
+[19:29:26] [Server thread/WARN]: java.lang.NoSuchFieldException: modifiers
 
-[16:22:16] [Server thread/WARN]: 	at java.base/java.lang.Class.getDeclaredField(Class.java:2782)
+[19:29:26] [Server thread/WARN]: 	at java.base/java.lang.Class.getDeclaredField(Class.java:2782)
 
-[16:22:16] [Server thread/WARN]: 	at org.github.paperspigot.PaperSpigotConfig.stackableBuckets(PaperSpigotConfig.java:192)
+[19:29:26] [Server thread/WARN]: 	at org.github.paperspigot.PaperSpigotConfig.stackableBuckets(PaperSpigotConfig.java:192)
 
-[16:22:16] [Server thread/WARN]: 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+[19:29:26] [Server thread/WARN]: 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
 
-[16:22:16] [Server thread/WARN]: 	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+[19:29:26] [Server thread/WARN]: 	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
 
-[16:22:16] [Server thread/WARN]: 	at org.github.paperspigot.PaperSpigotConfig.readConfig(PaperSpigotConfig.java:84)
+[19:29:26] [Server thread/WARN]: 	at org.github.paperspigot.PaperSpigotConfig.readConfig(PaperSpigotConfig.java:84)
 
-[16:22:16] [Server thread/WARN]: 	at org.github.paperspigot.PaperSpigotConfig.init(PaperSpigotConfig.java:62)
+[19:29:26] [Server thread/WARN]: 	at org.github.paperspigot.PaperSpigotConfig.init(PaperSpigotConfig.java:62)
 
-[16:22:16] [Server thread/WARN]: 	at net.minecraft.server.v1_8_R3.DedicatedServer.init(DedicatedServer.java:181)
+[19:29:26] [Server thread/WARN]: 	at net.minecraft.server.v1_8_R3.DedicatedServer.init(DedicatedServer.java:181)
 
-[16:22:16] [Server thread/WARN]: 	at net.minecraft.server.v1_8_R3.MinecraftServer.run(MinecraftServer.java:563)
+[19:29:26] [Server thread/WARN]: 	at net.minecraft.server.v1_8_R3.MinecraftServer.run(MinecraftServer.java:563)
 
-[16:22:16] [Server thread/WARN]: 	at java.base/java.lang.Thread.run(Thread.java:1583)
+[19:29:26] [Server thread/WARN]: 	at java.base/java.lang.Thread.run(Thread.java:1583)
 
-[16:22:16] [Server thread/INFO]: Generating keypair
-[16:22:16] [Server thread/INFO]: Starting Minecraft server on localhost:25565
-[16:22:16] [Server thread/INFO]: Your platform does not provide complete low-level API for accessing direct buffers reliably. Unless explicitly requested, heap buffer will always be preferred to avoid potential system unstability.
-[16:22:16] [Server thread/INFO]: Using default channel type
-[16:22:16] [Server thread/ERROR]: Could not load 'plugins/voicechat-velocity-2.5.12.jar' in folder 'plugins'
+[19:29:26] [Server thread/INFO]: Generating keypair
+[19:29:27] [Server thread/INFO]: Starting Minecraft server on localhost:25565
+[19:29:27] [Server thread/INFO]: Your platform does not provide complete low-level API for accessing direct buffers reliably. Unless explicitly requested, heap buffer will always be preferred to avoid potential system unstability.
+[19:29:27] [Server thread/INFO]: Using default channel type
+[19:29:29] [Server thread/ERROR]: Could not load 'plugins/voicechat-velocity-2.5.12.jar' in folder 'plugins'
 org.bukkit.plugin.InvalidDescriptionException: Invalid plugin.yml
 	at org.bukkit.plugin.java.JavaPluginLoader.getPluginDescription(JavaPluginLoader.java:152) ~[patched_1.8.8.jar:git-PaperSpigot-445]
 	at org.bukkit.plugin.SimplePluginManager.loadPlugins(SimplePluginManager.java:136) ~[patched_1.8.8.jar:git-PaperSpigot-445]
@@ -42,539 +42,233 @@ org.bukkit.plugin.InvalidDescriptionException: Invalid plugin.yml
 	at java.lang.Thread.run(Thread.java:1583) [?:?]
 Caused by: java.io.FileNotFoundException: Jar does not contain plugin.yml
 	... 6 more
-[16:22:16] [Server thread/INFO]: Set PluginClassLoader as parallel capable
-[16:22:17] [Server thread/INFO]: [PlayerCarry] Loading PlayerCarry v1.1
-[16:22:17] [Server thread/INFO]: [SimpleTpa] Loading SimpleTpa v6.4
-[16:22:17] [Server thread/INFO]: [SimpleHomes] Loading SimpleHomes v2.2
-[16:22:17] [Server thread/INFO]: [WorldEdit] Loading WorldEdit v6.1;no_git_id
-[16:22:17] [Server thread/INFO]: [IPortal] Loading IPortal v1.0
-[16:22:17] [Server thread/INFO]: [LoginSecurity] Loading LoginSecurity v3.2.0
-[16:22:17] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[16:22:17] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
-[16:22:17] [Server thread/WARN]: Whilst this makes it possible to use BungeeCord, unless access to your server is properly restricted, it also opens up the ability for hackers to connect with any username they choose.
-[16:22:17] [Server thread/WARN]: Please see http://www.spigotmc.org/wiki/firewall-guide/ for further information.
-[16:22:17] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
-[16:22:17] [Server thread/INFO]: **** Beginning UUID conversion, this may take A LONG time ****
-[16:22:17] [Server thread/INFO]: Preparing level "world"
-[16:22:17] [Server thread/INFO]: -------- World Settings For [world] --------
-[16:22:17] [Server thread/INFO]: Mob Spawn Range: 4
-[16:22:17] [Server thread/INFO]: Anti X-Ray: true
-[16:22:17] [Server thread/INFO]: 	Engine Mode: 1
-[16:22:17] [Server thread/INFO]: 	Hidden Blocks: [14, 15, 16, 21, 48, 49, 54, 56, 73, 74, 82, 129, 130]
-[16:22:17] [Server thread/INFO]: 	Replace Blocks: [1, 5]
-[16:22:17] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
-[16:22:17] [Server thread/INFO]: Cactus Growth Modifier: 100%
-[16:22:17] [Server thread/INFO]: Cane Growth Modifier: 100%
-[16:22:17] [Server thread/INFO]: Melon Growth Modifier: 100%
-[16:22:17] [Server thread/INFO]: Mushroom Growth Modifier: 100%
-[16:22:17] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
-[16:22:17] [Server thread/INFO]: Sapling Growth Modifier: 100%
-[16:22:17] [Server thread/INFO]: Wheat Growth Modifier: 100%
-[16:22:17] [Server thread/INFO]: NetherWart Growth Modifier: 100%
-[16:22:17] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16
-[16:22:17] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
-[16:22:17] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 8 Hopper Amount: 1
-[16:22:17] [Server thread/INFO]: Random Lighting Updates: false
-[16:22:17] [Server thread/INFO]: Structure Info Saving: true
-[16:22:17] [Server thread/INFO]: Sending up to 10 chunks per packet
-[16:22:17] [Server thread/INFO]: Max Entity Collisions: 8
-[16:22:17] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Feature: 14357617
-[16:22:17] [Server thread/INFO]: Max TNT Explosions: 100
-[16:22:17] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
-[16:22:17] [Server thread/INFO]: Item Merge Radius: 2.5
-[16:22:17] [Server thread/INFO]: Item Despawn Rate: 6000
-[16:22:17] [Server thread/INFO]: Arrow Despawn Rate: 1200
-[16:22:17] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
-[16:22:17] [Server thread/INFO]: View Distance: 4
-[16:22:17] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
-[16:22:17] [Server thread/INFO]: Chunks to Grow per Tick: 650
-[16:22:17] [Server thread/INFO]: Clear tick list: false
-[16:22:17] [Server thread/INFO]: Experience Merge Radius: 3.0
-[16:22:17] [Server thread/INFO]: -------- World Settings For [world] --------
-[16:22:17] [Server thread/INFO]: Player blocking damage multiplier set to 0.5
-[16:22:17] [Server thread/INFO]: Remove invalid mob spawner tile entities: true
-[16:22:17] [Server thread/INFO]: Squids will spawn between Y: 45.0 and Y: 63.0
-[16:22:17] [Server thread/INFO]: Max height for cactus growth 3. Max height for reed growth 3
-[16:22:17] [Server thread/INFO]: Living Entity Despawn Ranges:  Soft: 32 Hard: 128
-[16:22:17] [Server thread/INFO]: Water over lava flow speed: 5
-[16:22:17] [Server thread/INFO]: Fix TNT cannons: false
-[16:22:17] [Server thread/INFO]: Allow undead horse types to be leashed: false
-[16:22:17] [Server thread/INFO]: Keep spawn chunk loaded: true
-[16:22:17] [Server thread/INFO]: World async lighting: false
-[16:22:17] [Server thread/INFO]: WorldServer TickNextTick cap set at 10000
-[16:22:17] [Server thread/INFO]: WorldServer TickNextTickList cap always processes redstone: false
-[16:22:17] [Server thread/INFO]: -------- World Settings For [world_nether] --------
-[16:22:17] [Server thread/INFO]: Mob Spawn Range: 4
-[16:22:17] [Server thread/INFO]: Anti X-Ray: true
-[16:22:17] [Server thread/INFO]: 	Engine Mode: 1
-[16:22:17] [Server thread/INFO]: 	Hidden Blocks: [14, 15, 16, 21, 48, 49, 54, 56, 73, 74, 82, 129, 130]
-[16:22:17] [Server thread/INFO]: 	Replace Blocks: [1, 5]
-[16:22:17] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
-[16:22:17] [Server thread/INFO]: Cactus Growth Modifier: 100%
-[16:22:17] [Server thread/INFO]: Cane Growth Modifier: 100%
-[16:22:17] [Server thread/INFO]: Melon Growth Modifier: 100%
-[16:22:17] [Server thread/INFO]: Mushroom Growth Modifier: 100%
-[16:22:17] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
-[16:22:17] [Server thread/INFO]: Sapling Growth Modifier: 100%
-[16:22:17] [Server thread/INFO]: Wheat Growth Modifier: 100%
-[16:22:17] [Server thread/INFO]: NetherWart Growth Modifier: 100%
-[16:22:17] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16
-[16:22:17] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
-[16:22:17] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 8 Hopper Amount: 1
-[16:22:17] [Server thread/INFO]: Random Lighting Updates: false
-[16:22:17] [Server thread/INFO]: Structure Info Saving: true
-[16:22:17] [Server thread/INFO]: Sending up to 10 chunks per packet
-[16:22:17] [Server thread/INFO]: Max Entity Collisions: 8
-[16:22:17] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Feature: 14357617
-[16:22:17] [Server thread/INFO]: Max TNT Explosions: 100
-[16:22:17] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
-[16:22:17] [Server thread/INFO]: Item Merge Radius: 2.5
-[16:22:17] [Server thread/INFO]: Item Despawn Rate: 6000
-[16:22:17] [Server thread/INFO]: Arrow Despawn Rate: 1200
-[16:22:17] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
-[16:22:17] [Server thread/INFO]: View Distance: 4
-[16:22:17] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
-[16:22:17] [Server thread/INFO]: Chunks to Grow per Tick: 650
-[16:22:17] [Server thread/INFO]: Clear tick list: false
-[16:22:17] [Server thread/INFO]: Experience Merge Radius: 3.0
-[16:22:17] [Server thread/INFO]: -------- World Settings For [world_nether] --------
-[16:22:17] [Server thread/INFO]: Player blocking damage multiplier set to 0.5
-[16:22:17] [Server thread/INFO]: Remove invalid mob spawner tile entities: true
-[16:22:17] [Server thread/INFO]: Squids will spawn between Y: 45.0 and Y: 63.0
-[16:22:17] [Server thread/INFO]: Max height for cactus growth 3. Max height for reed growth 3
-[16:22:17] [Server thread/INFO]: Living Entity Despawn Ranges:  Soft: 32 Hard: 128
-[16:22:17] [Server thread/INFO]: Water over lava flow speed: 5
-[16:22:17] [Server thread/INFO]: Fix TNT cannons: false
-[16:22:17] [Server thread/INFO]: Allow undead horse types to be leashed: false
-[16:22:17] [Server thread/INFO]: Keep spawn chunk loaded: true
-[16:22:17] [Server thread/INFO]: World async lighting: false
-[16:22:17] [Server thread/INFO]: WorldServer TickNextTick cap set at 10000
-[16:22:17] [Server thread/INFO]: WorldServer TickNextTickList cap always processes redstone: false
-[16:22:17] [Server thread/INFO]: -------- World Settings For [world_the_end] --------
-[16:22:17] [Server thread/INFO]: Mob Spawn Range: 4
-[16:22:17] [Server thread/INFO]: Anti X-Ray: true
-[16:22:17] [Server thread/INFO]: 	Engine Mode: 1
-[16:22:17] [Server thread/INFO]: 	Hidden Blocks: [14, 15, 16, 21, 48, 49, 54, 56, 73, 74, 82, 129, 130]
-[16:22:17] [Server thread/INFO]: 	Replace Blocks: [1, 5]
-[16:22:17] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
-[16:22:17] [Server thread/INFO]: Cactus Growth Modifier: 100%
-[16:22:17] [Server thread/INFO]: Cane Growth Modifier: 100%
-[16:22:17] [Server thread/INFO]: Melon Growth Modifier: 100%
-[16:22:17] [Server thread/INFO]: Mushroom Growth Modifier: 100%
-[16:22:17] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
-[16:22:17] [Server thread/INFO]: Sapling Growth Modifier: 100%
-[16:22:17] [Server thread/INFO]: Wheat Growth Modifier: 100%
-[16:22:17] [Server thread/INFO]: NetherWart Growth Modifier: 100%
-[16:22:17] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16
-[16:22:17] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
-[16:22:17] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 8 Hopper Amount: 1
-[16:22:17] [Server thread/INFO]: Random Lighting Updates: false
-[16:22:17] [Server thread/INFO]: Structure Info Saving: true
-[16:22:17] [Server thread/INFO]: Sending up to 10 chunks per packet
-[16:22:17] [Server thread/INFO]: Max Entity Collisions: 8
-[16:22:17] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Feature: 14357617
-[16:22:17] [Server thread/INFO]: Max TNT Explosions: 100
-[16:22:17] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
-[16:22:17] [Server thread/INFO]: Item Merge Radius: 2.5
-[16:22:17] [Server thread/INFO]: Item Despawn Rate: 6000
-[16:22:17] [Server thread/INFO]: Arrow Despawn Rate: 1200
-[16:22:17] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
-[16:22:17] [Server thread/INFO]: View Distance: 4
-[16:22:17] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
-[16:22:17] [Server thread/INFO]: Chunks to Grow per Tick: 650
-[16:22:17] [Server thread/INFO]: Clear tick list: false
-[16:22:17] [Server thread/INFO]: Experience Merge Radius: 3.0
-[16:22:17] [Server thread/INFO]: -------- World Settings For [world_the_end] --------
-[16:22:17] [Server thread/INFO]: Player blocking damage multiplier set to 0.5
-[16:22:17] [Server thread/INFO]: Remove invalid mob spawner tile entities: true
-[16:22:17] [Server thread/INFO]: Squids will spawn between Y: 45.0 and Y: 63.0
-[16:22:17] [Server thread/INFO]: Max height for cactus growth 3. Max height for reed growth 3
-[16:22:17] [Server thread/INFO]: Living Entity Despawn Ranges:  Soft: 32 Hard: 128
-[16:22:17] [Server thread/INFO]: Water over lava flow speed: 5
-[16:22:17] [Server thread/INFO]: Fix TNT cannons: false
-[16:22:17] [Server thread/INFO]: Allow undead horse types to be leashed: false
-[16:22:17] [Server thread/INFO]: Keep spawn chunk loaded: true
-[16:22:17] [Server thread/INFO]: World async lighting: false
-[16:22:17] [Server thread/INFO]: WorldServer TickNextTick cap set at 10000
-[16:22:17] [Server thread/INFO]: WorldServer TickNextTickList cap always processes redstone: false
-[16:22:17] [Server thread/INFO]: Preparing start region for level 0 (Seed: 5030927234482762677)
-[16:22:18] [Server thread/INFO]: Preparing spawn area: 17%
-[16:22:19] [Server thread/INFO]: Preparing spawn area: 97%
-[16:22:19] [Server thread/INFO]: Preparing start region for level 1 (Seed: 5030927234482762677)
-[16:22:20] [Server thread/INFO]: Preparing spawn area: 46%
-[16:22:21] [Server thread/INFO]: Preparing start region for level 2 (Seed: 5030927234482762677)
-[16:22:21] [Server thread/INFO]: [PlayerCarry] Enabling PlayerCarry v1.1
-[16:22:21] [Server thread/INFO]: [SimpleTpa] Enabling SimpleTpa v6.4
-[16:22:21] [Server thread/INFO]: [0;33;1m[21m[SimpleTpa] If you need support contact me at https://discord.gg/SZUkza9[m
+[19:29:31] [Server thread/INFO]: Set PluginClassLoader as parallel capable
+[19:29:31] [Server thread/INFO]: [PlayerCarry] Loading PlayerCarry v1.1
+[19:29:31] [Server thread/INFO]: [SimpleTpa] Loading SimpleTpa v6.4
+[19:29:31] [Server thread/INFO]: [SimpleHomes] Loading SimpleHomes v2.2
+[19:29:31] [Server thread/INFO]: [WorldEdit] Loading WorldEdit v6.1;no_git_id
+[19:29:31] [Server thread/INFO]: [AlmostFlatLands] Loading AlmostFlatLands v0.2.1
+[19:29:31] [Server thread/INFO]: [LoginSecurity] Loading LoginSecurity v3.2.0
+[19:29:31] [Server thread/INFO]: [Multiverse-Core] Loading Multiverse-Core v2.4-b527
+[19:29:31] [Server thread/INFO]: [Multiverse-NetherPortals] Loading Multiverse-NetherPortals v2.4-b530
+[19:29:31] [Server thread/INFO]: [Multiverse-Portals] Loading Multiverse-Portals v2.4-b548
+[19:29:31] [Server thread/INFO]: [IPortal] Loading IPortal v1.0
+[19:29:31] [Server thread/INFO]: [Multiverse-SignPortals] Loading Multiverse-SignPortals v2.4-b523
+[19:29:31] [Server thread/INFO]: [AlmostFlatLands] Enabling AlmostFlatLands v0.2.1
+[19:29:31] [Server thread/INFO]: [AlmostFlatLands v0.2.1]: The config.yml file has been updated.
+[19:29:31] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[19:29:31] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[19:29:31] [Server thread/WARN]: Whilst this makes it possible to use BungeeCord, unless access to your server is properly restricted, it also opens up the ability for hackers to connect with any username they choose.
+[19:29:31] [Server thread/WARN]: Please see http://www.spigotmc.org/wiki/firewall-guide/ for further information.
+[19:29:31] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[19:29:31] [Server thread/INFO]: **** Beginning UUID conversion, this may take A LONG time ****
+[19:29:31] [Server thread/INFO]: Preparing level "world"
+[19:29:32] [Server thread/INFO]: -------- World Settings For [world] --------
+[19:29:32] [Server thread/INFO]: Mob Spawn Range: 4
+[19:29:32] [Server thread/INFO]: Anti X-Ray: true
+[19:29:32] [Server thread/INFO]: 	Engine Mode: 1
+[19:29:32] [Server thread/INFO]: 	Hidden Blocks: [14, 15, 16, 21, 48, 49, 54, 56, 73, 74, 82, 129, 130]
+[19:29:32] [Server thread/INFO]: 	Replace Blocks: [1, 5]
+[19:29:32] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[19:29:32] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[19:29:32] [Server thread/INFO]: Cane Growth Modifier: 100%
+[19:29:32] [Server thread/INFO]: Melon Growth Modifier: 100%
+[19:29:32] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[19:29:32] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[19:29:32] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[19:29:32] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[19:29:32] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[19:29:32] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16
+[19:29:32] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[19:29:32] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 8 Hopper Amount: 1
+[19:29:32] [Server thread/INFO]: Random Lighting Updates: false
+[19:29:32] [Server thread/INFO]: Structure Info Saving: true
+[19:29:32] [Server thread/INFO]: Sending up to 10 chunks per packet
+[19:29:32] [Server thread/INFO]: Max Entity Collisions: 8
+[19:29:32] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Feature: 14357617
+[19:29:32] [Server thread/INFO]: Max TNT Explosions: 100
+[19:29:32] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[19:29:32] [Server thread/INFO]: Item Despawn Rate: 6000
+[19:29:32] [Server thread/INFO]: Item Merge Radius: 2.5
+[19:29:32] [Server thread/INFO]: Arrow Despawn Rate: 1200
+[19:29:32] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[19:29:32] [Server thread/INFO]: View Distance: 4
+[19:29:32] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[19:29:32] [Server thread/INFO]: Chunks to Grow per Tick: 650
+[19:29:32] [Server thread/INFO]: Clear tick list: false
+[19:29:32] [Server thread/INFO]: Experience Merge Radius: 3.0
+[19:29:32] [Server thread/INFO]: -------- World Settings For [world] --------
+[19:29:32] [Server thread/INFO]: Squids will spawn between Y: 45.0 and Y: 63.0
+[19:29:32] [Server thread/INFO]: Max height for cactus growth 3. Max height for reed growth 3
+[19:29:32] [Server thread/INFO]: Living Entity Despawn Ranges:  Soft: 32 Hard: 128
+[19:29:32] [Server thread/INFO]: Player blocking damage multiplier set to 0.5
+[19:29:32] [Server thread/INFO]: Remove invalid mob spawner tile entities: true
+[19:29:32] [Server thread/INFO]: Water over lava flow speed: 5
+[19:29:32] [Server thread/INFO]: Fix TNT cannons: false
+[19:29:32] [Server thread/INFO]: Allow undead horse types to be leashed: false
+[19:29:32] [Server thread/INFO]: Keep spawn chunk loaded: true
+[19:29:32] [Server thread/INFO]: World async lighting: false
+[19:29:32] [Server thread/INFO]: WorldServer TickNextTick cap set at 10000
+[19:29:32] [Server thread/INFO]: WorldServer TickNextTickList cap always processes redstone: false
+[19:29:32] [Server thread/INFO]: -------- World Settings For [world_nether] --------
+[19:29:32] [Server thread/INFO]: Mob Spawn Range: 4
+[19:29:32] [Server thread/INFO]: Anti X-Ray: true
+[19:29:32] [Server thread/INFO]: 	Engine Mode: 1
+[19:29:32] [Server thread/INFO]: 	Hidden Blocks: [14, 15, 16, 21, 48, 49, 54, 56, 73, 74, 82, 129, 130]
+[19:29:32] [Server thread/INFO]: 	Replace Blocks: [1, 5]
+[19:29:32] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[19:29:32] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[19:29:32] [Server thread/INFO]: Cane Growth Modifier: 100%
+[19:29:32] [Server thread/INFO]: Melon Growth Modifier: 100%
+[19:29:32] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[19:29:32] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[19:29:32] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[19:29:32] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[19:29:32] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[19:29:32] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16
+[19:29:32] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[19:29:32] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 8 Hopper Amount: 1
+[19:29:32] [Server thread/INFO]: Random Lighting Updates: false
+[19:29:32] [Server thread/INFO]: Structure Info Saving: true
+[19:29:32] [Server thread/INFO]: Sending up to 10 chunks per packet
+[19:29:32] [Server thread/INFO]: Max Entity Collisions: 8
+[19:29:32] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Feature: 14357617
+[19:29:32] [Server thread/INFO]: Max TNT Explosions: 100
+[19:29:32] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[19:29:32] [Server thread/INFO]: Item Despawn Rate: 6000
+[19:29:32] [Server thread/INFO]: Item Merge Radius: 2.5
+[19:29:32] [Server thread/INFO]: Arrow Despawn Rate: 1200
+[19:29:32] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[19:29:32] [Server thread/INFO]: View Distance: 4
+[19:29:32] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[19:29:32] [Server thread/INFO]: Chunks to Grow per Tick: 650
+[19:29:32] [Server thread/INFO]: Clear tick list: false
+[19:29:32] [Server thread/INFO]: Experience Merge Radius: 3.0
+[19:29:32] [Server thread/INFO]: -------- World Settings For [world_nether] --------
+[19:29:32] [Server thread/INFO]: Squids will spawn between Y: 45.0 and Y: 63.0
+[19:29:32] [Server thread/INFO]: Max height for cactus growth 3. Max height for reed growth 3
+[19:29:32] [Server thread/INFO]: Living Entity Despawn Ranges:  Soft: 32 Hard: 128
+[19:29:32] [Server thread/INFO]: Player blocking damage multiplier set to 0.5
+[19:29:32] [Server thread/INFO]: Remove invalid mob spawner tile entities: true
+[19:29:32] [Server thread/INFO]: Water over lava flow speed: 5
+[19:29:32] [Server thread/INFO]: Fix TNT cannons: false
+[19:29:32] [Server thread/INFO]: Allow undead horse types to be leashed: false
+[19:29:32] [Server thread/INFO]: Keep spawn chunk loaded: true
+[19:29:32] [Server thread/INFO]: World async lighting: false
+[19:29:32] [Server thread/INFO]: WorldServer TickNextTick cap set at 10000
+[19:29:32] [Server thread/INFO]: WorldServer TickNextTickList cap always processes redstone: false
+[19:29:33] [Server thread/INFO]: -------- World Settings For [world_the_end] --------
+[19:29:33] [Server thread/INFO]: Mob Spawn Range: 4
+[19:29:33] [Server thread/INFO]: Anti X-Ray: true
+[19:29:33] [Server thread/INFO]: 	Engine Mode: 1
+[19:29:33] [Server thread/INFO]: 	Hidden Blocks: [14, 15, 16, 21, 48, 49, 54, 56, 73, 74, 82, 129, 130]
+[19:29:33] [Server thread/INFO]: 	Replace Blocks: [1, 5]
+[19:29:33] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[19:29:33] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[19:29:33] [Server thread/INFO]: Cane Growth Modifier: 100%
+[19:29:33] [Server thread/INFO]: Melon Growth Modifier: 100%
+[19:29:33] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[19:29:33] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[19:29:33] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[19:29:33] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[19:29:33] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[19:29:33] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16
+[19:29:33] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[19:29:33] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 8 Hopper Amount: 1
+[19:29:33] [Server thread/INFO]: Random Lighting Updates: false
+[19:29:33] [Server thread/INFO]: Structure Info Saving: true
+[19:29:33] [Server thread/INFO]: Sending up to 10 chunks per packet
+[19:29:33] [Server thread/INFO]: Max Entity Collisions: 8
+[19:29:33] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Feature: 14357617
+[19:29:33] [Server thread/INFO]: Max TNT Explosions: 100
+[19:29:33] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[19:29:33] [Server thread/INFO]: Item Despawn Rate: 6000
+[19:29:33] [Server thread/INFO]: Item Merge Radius: 2.5
+[19:29:33] [Server thread/INFO]: Arrow Despawn Rate: 1200
+[19:29:33] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[19:29:33] [Server thread/INFO]: View Distance: 4
+[19:29:33] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[19:29:33] [Server thread/INFO]: Chunks to Grow per Tick: 650
+[19:29:33] [Server thread/INFO]: Clear tick list: false
+[19:29:33] [Server thread/INFO]: Experience Merge Radius: 3.0
+[19:29:33] [Server thread/INFO]: -------- World Settings For [world_the_end] --------
+[19:29:33] [Server thread/INFO]: Squids will spawn between Y: 45.0 and Y: 63.0
+[19:29:33] [Server thread/INFO]: Max height for cactus growth 3. Max height for reed growth 3
+[19:29:33] [Server thread/INFO]: Living Entity Despawn Ranges:  Soft: 32 Hard: 128
+[19:29:33] [Server thread/INFO]: Player blocking damage multiplier set to 0.5
+[19:29:33] [Server thread/INFO]: Remove invalid mob spawner tile entities: true
+[19:29:33] [Server thread/INFO]: Water over lava flow speed: 5
+[19:29:33] [Server thread/INFO]: Fix TNT cannons: false
+[19:29:33] [Server thread/INFO]: Allow undead horse types to be leashed: false
+[19:29:33] [Server thread/INFO]: Keep spawn chunk loaded: true
+[19:29:33] [Server thread/INFO]: World async lighting: false
+[19:29:33] [Server thread/INFO]: WorldServer TickNextTick cap set at 10000
+[19:29:33] [Server thread/INFO]: WorldServer TickNextTickList cap always processes redstone: false
+[19:29:33] [Server thread/INFO]: Preparing start region for level 0 (Seed: 5030927234482762677)
+[19:29:34] [Server thread/INFO]: Preparing spawn area: 20%
+[19:29:35] [Server thread/INFO]: Preparing start region for level 1 (Seed: 5030927234482762677)
+[19:29:36] [Server thread/INFO]: Preparing spawn area: 37%
+[19:29:37] [Server thread/INFO]: Preparing spawn area: 55%
+[19:29:38] [Server thread/INFO]: Preparing spawn area: 74%
+[19:29:38] [Server thread/INFO]: Preparing start region for level 2 (Seed: 5030927234482762677)
+[19:29:39] [Server thread/INFO]: [PlayerCarry] Enabling PlayerCarry v1.1
+[19:29:39] [Server thread/INFO]: [SimpleTpa] Enabling SimpleTpa v6.4
+[19:29:39] [Server thread/INFO]: [0;33;1m[21m[SimpleTpa] If you need support contact me at https://discord.gg/SZUkza9[m
 
-[16:22:21] [Server thread/INFO]: [0;33;1m[21m[SimpleTpa] Simple Tpa has been enabled on version 6.4[m
+[19:29:39] [Server thread/INFO]: [0;33;1m[21m[SimpleTpa] Simple Tpa has been enabled on version 6.4[m
 
-[16:22:21] [Server thread/INFO]: Enabled metrics. You may opt-out by changing plugins/bStats/config.yml
-[16:22:21] [Server thread/INFO]: [SimpleHomes] Enabling SimpleHomes v2.2
-[16:22:21] [Server thread/INFO]: [WorldEdit] Enabling WorldEdit v6.1;no_git_id
-[16:22:21] [Server thread/INFO]: WEPIF: Using the Bukkit Permissions API.
-[16:22:21] [Server thread/INFO]: [WorldEdit] Using com.sk89q.worldedit.bukkit.adapter.impl.Spigot_v1_8_R3 as the Bukkit adapter
-[16:22:21] [Server thread/INFO]: [IPortal] Enabling IPortal v1.0
-[16:22:21] [Server thread/INFO]: [IPortal] IPortal has been enabled!
-[16:22:21] [Server thread/INFO]: [LoginSecurity] Enabling LoginSecurity v3.2.0
-[16:22:21] [Server thread/INFO]: [LoginSecurity] Loading base translations from "en_us"
-[16:22:21] [Server thread/INFO]: [LoginSecurity] Loading specified translations from "en_us"
-[16:22:21] [Server thread/INFO]: [LoginSecurity] Registering commands...
-[16:22:21] [Server thread/INFO]: [LoginSecurity] Registering listeners...
-[16:22:21] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
-[16:22:21] [Server thread/INFO]: Done (4.694s)! For help, type "help" or "?"
-[16:22:21] [Server thread/INFO]: Timings Reset
-[16:22:22] [Craft Scheduler Thread - 0/INFO]: [0;31;1m[21m[SimpleTpa] There is a new update available.[m
+[19:29:39] [Server thread/INFO]: Enabled metrics. You may opt-out by changing plugins/bStats/config.yml
+[19:29:39] [Server thread/INFO]: [SimpleHomes] Enabling SimpleHomes v2.2
+[19:29:39] [Server thread/INFO]: [WorldEdit] Enabling WorldEdit v6.1;no_git_id
+[19:29:39] [Server thread/INFO]: WEPIF: Using the Bukkit Permissions API.
+[19:29:39] [Server thread/INFO]: [WorldEdit] Using com.sk89q.worldedit.bukkit.adapter.impl.Spigot_v1_8_R3 as the Bukkit adapter
+[19:29:39] [Server thread/INFO]: [LoginSecurity] Enabling LoginSecurity v3.2.0
+[19:29:39] [Server thread/INFO]: [LoginSecurity] Loading base translations from "en_us"
+[19:29:39] [Server thread/INFO]: [LoginSecurity] Loading specified translations from "en_us"
+[19:29:39] [Server thread/INFO]: [LoginSecurity] Registering commands...
+[19:29:39] [Server thread/INFO]: [LoginSecurity] Registering listeners...
+[19:29:39] [Server thread/INFO]: [Multiverse-Core] Enabling Multiverse-Core v2.4-b527
+[19:29:39] [Server thread/INFO]: [Multiverse-Core] - Version 2.4-b527 (API v14) Enabled - By Rigby, fernferret, lithium3141 and main--
+[19:29:39] [Server thread/INFO]: [AllPay] - Version 10.0 - using only an item based economy for Multiverse-Core v2.4-b527
+[19:29:39] [Server thread/INFO]: [Multiverse-Core] Loading World & Settings - 'world' - Env: NORMAL - Type: NORMAL & seed: 5030927234482762677
+[19:29:39] [Server thread/INFO]: [Multiverse-Core] Loading World & Settings - 'world_nether' - Env: NETHER - Type: NORMAL & seed: 5030927234482762677
+[19:29:39] [Server thread/WARN]: [Multiverse-Core] Spawn location from world.dat file was unsafe. Adjusting...
+[19:29:39] [Server thread/WARN]: [Multiverse-Core] Original Location: X: 0 Y: 0 Z: 0 P: 0 Y: 0 
+[19:29:39] [Server thread/INFO]: [Multiverse-Core] New Spawn for 'world_nether' is Located at: world_nether:-2.50,3.00,1.50:0.00:0.00
+[19:29:40] [Server thread/INFO]: [Multiverse-Core] Loading World & Settings - 'world_the_end' - Env: THE_END - Type: NORMAL & seed: 5030927234482762677
+[19:29:40] [Server thread/WARN]: [Multiverse-Core] Spawn location from world.dat file was unsafe. Adjusting...
+[19:29:40] [Server thread/WARN]: [Multiverse-Core] Original Location: X: 0 Y: 0 Z: 0 P: 0 Y: 0 
+[19:29:40] [Server thread/INFO]: [Multiverse-Core] New Spawn for 'world_the_end' is Located at: world_the_end:0.00,65.00,0.00:0.00:0.00
+[19:29:40] [Server thread/INFO]: [Multiverse-Core] Loading World & Settings - 'world' - Env: NORMAL - Type: NORMAL & seed: 5030927234482762677
+[19:29:40] [Server thread/INFO]: [Multiverse-Core] Loading World & Settings - 'world_nether' - Env: NETHER - Type: NORMAL & seed: 5030927234482762677
+[19:29:40] [Server thread/INFO]: [Multiverse-Core] Loading World & Settings - 'world_the_end' - Env: THE_END - Type: NORMAL & seed: 5030927234482762677
+[19:29:40] [Server thread/INFO]: [Multiverse-Core] 3 - World(s) loaded.
+[19:29:40] [Server thread/INFO]: [Multiverse-NetherPortals] Enabling Multiverse-NetherPortals v2.4-b530
+[19:29:40] [Server thread/INFO]: [MultiVerse-NetherPortals] - Version 2.4-b530 Enabled - By Rigby and fernferret
+[19:29:40] [Server thread/ERROR]: [MultiVerse-NetherPortals]  Could not load config.yml
+[19:29:40] [Server thread/INFO]: [Multiverse-Portals] Enabling Multiverse-Portals v2.4-b548
+[19:29:40] [Server thread/INFO]: [Multiverse-Portals] - Version 2.4-b548 Enabled - By Rigby and fernferret
+[19:29:40] [Server thread/INFO]: [Multiverse-Portals]  0 - Portals(s) loaded
+[19:29:40] [Server thread/INFO]: [IPortal] Enabling IPortal v1.0
+[19:29:40] [Server thread/INFO]: [IPortal] IPortal has been enabled!
+[19:29:40] [Server thread/INFO]: [Multiverse-SignPortals] Enabling Multiverse-SignPortals v2.4-b523
+[19:29:40] [Server thread/INFO]: [Multiverse-SignPortals] - Version 2.4-b523 Enabled - By Rigby and fernferret
+[19:29:40] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[19:29:41] [Server thread/INFO]: Done (9.157s)! For help, type "help" or "?"
+[19:29:41] [Server thread/INFO]: Timings Reset
+[19:29:41] [Craft Scheduler Thread - 0/INFO]: [0;31;1m[21m[SimpleTpa] There is a new update available.[m
 
-[16:22:22] [Craft Scheduler Thread - 0/INFO]: [0;31;1m[SimpleTpa] There is a new update available:[m
+[19:29:41] [Craft Scheduler Thread - 0/INFO]: [0;31;1m[SimpleTpa] There is a new update available:[m
 
-[16:22:22] [Craft Scheduler Thread - 0/INFO]: [0;31;1m[SimpleTpa] https://www.spigotmc.org/resources/simple-tpa.64270/[m
+[19:29:41] [Craft Scheduler Thread - 0/INFO]: [0;31;1m[SimpleTpa] https://www.spigotmc.org/resources/simple-tpa.64270/[m
 
-[16:24:19] [Thread-7/INFO]: UUID of player Dayrod009 is ddc482d0-b779-37fb-88bb-2190281a831a
-[16:24:20] [Server thread/INFO]: Dayrod009[/[0:0:0:0:0:0:0:1]:33000] logged in with entity id 590 at ([world]-488.8009638576749, 64.0, 143.21562652414707)
-[16:26:44] [Server thread/INFO]: Dayrod009 issued server command: /give @p sand 64
-[16:26:44] [Server thread/INFO]: [Dayrod009: Given [Sand] * 64 to Dayrod009]
-[16:27:58] [Server thread/INFO]: Dayrod009 issued server command: /give @p minecraft:barrier 1
-[16:27:58] [Server thread/INFO]: [Dayrod009: Given [Barrier] * 1 to Dayrod009]
-[16:28:39] [Server thread/INFO]: Dayrod009 issued server command: /give @p minecraft:wool 64
-[16:28:39] [Server thread/INFO]: [Dayrod009: Given [Wool] * 64 to Dayrod009]
-[16:29:01] [Server thread/INFO]: Dayrod009 issued server command: /gamemode creative
-[16:29:01] [Server thread/INFO]: [Dayrod009: Set own game mode to Creative Mode]
-[16:30:12] [Server thread/INFO]: Dayrod009 issued server command: /gamemode survival
-[16:30:12] [Server thread/INFO]: [Dayrod009: Set own game mode to Survival Mode]
-[16:30:59] [Server thread/INFO]: Dayrod009 issued server command: //wand
-[16:31:16] [Server thread/INFO]: Dayrod009 issued server command: //restore
-[16:31:36] [Server thread/INFO]: Dayrod009 issued server command: //restore
-[16:31:48] [Server thread/INFO]: Dayrod009 issued server command: /gamemode creative
-[16:31:48] [Server thread/INFO]: [Dayrod009: Set own game mode to Creative Mode]
-[16:32:05] [Server thread/INFO]: Dayrod009 issued server command: /give @p minecraft:glass 64
-[16:32:05] [Server thread/INFO]: [Dayrod009: Given [Glass] * 64 to Dayrod009]
-[16:33:16] [Server thread/INFO]: Dayrod009 issued server command: /gamemode survival
-[16:33:16] [Server thread/INFO]: [Dayrod009: Set own game mode to Survival Mode]
-[16:33:49] [Server thread/INFO]: Dayrod009 issued server command: //
-[16:34:10] [Server thread/INFO]: Dayrod009 issued server command: /give @p minecraft:wooden_pickaxe
-[16:34:10] [Server thread/INFO]: [Dayrod009: Given [Wooden Pickaxe] * 1 to Dayrod009]
-[16:34:32] [Server thread/INFO]: Dayrod009 issued server command: /effect @p minecraft:night_vision 1000000 2 true
-[16:34:32] [Server thread/INFO]: [Dayrod009: Given Night Vision (ID 16) * 2 to Dayrod009 for 1000000 seconds]
-[16:35:40] [Server thread/INFO]: Dayrod009 issued server command: /tpa
-[16:35:50] [Server thread/INFO]: Dayrod009 issued server command: /help SimpleTpa
-[16:36:03] [Server thread/INFO]: Dayrod009 issued server command: /simpletpa
-[16:36:28] [Server thread/INFO]: Dayrod009 issued server command: /tp Dayrod009 0 70 0
-[16:36:28] [Server thread/INFO]: [Dayrod009: Teleported Dayrod009 to 0.5, 70.0, 0.5]
-[16:38:30] [Server thread/INFO]: Dayrod009 lost connection: Disconnected
-[16:38:30] [Server thread/INFO]: Dayrod009 left the game.
-[16:41:44] [Thread-9/INFO]: UUID of player NachoArcha is 76a96839-8f01-3fe9-91c8-e680fa6c9339
-[16:41:44] [Server thread/INFO]: NachoArcha[/[0:0:0:0:0:0:0:1]:55374] logged in with entity id 2062 at ([world]589.2032038694313, 78.0, 309.52916723955576)
-[16:43:11] [Server thread/INFO]: NachoArcha issued server command: /delhome portal
-[16:43:22] [Server thread/INFO]: NachoArcha issued server command: /homes
-[16:43:32] [Server thread/INFO]: NachoArcha issued server command: /
-[16:46:41] [Server thread/INFO]: NachoArcha lost connection: Disconnected
-[16:46:41] [Server thread/INFO]: NachoArcha left the game.
-[16:48:17] [Thread-10/INFO]: UUID of player NachoArcha is 76a96839-8f01-3fe9-91c8-e680fa6c9339
-[16:48:17] [Server thread/INFO]: NachoArcha[/[0:0:0:0:0:0:0:1]:34392] logged in with entity id 3016 at ([world]590.2301437672772, 78.0, 303.0289631095747)
-[16:49:11] [Server thread/INFO]: NachoArcha issued server command: /home 22
-[16:51:56] [Server thread/INFO]: NachoArcha lost connection: Disconnected
-[16:51:56] [Server thread/INFO]: NachoArcha left the game.
-[17:00:01] [Thread-12/INFO]: UUID of player Dayrod009 is ddc482d0-b779-37fb-88bb-2190281a831a
-[17:00:02] [Server thread/INFO]: Dayrod009[/[0:0:0:0:0:0:0:1]:37806] logged in with entity id 3373 at ([world]1.8059352676358005, 1.0, -0.3158799966959688)
-[17:00:23] [Server thread/INFO]: Dayrod009 issued server command: //
-[17:02:56] [Server thread/INFO]: * Server i crashed
-[17:03:17] [Server thread/INFO]: Dayrod009 lost connection: Disconnected
-[17:03:17] [Server thread/INFO]: Dayrod009 left the game.
-[17:03:24] [Server thread/INFO]: * Server archer
-[17:03:26] [Server thread/INFO]: * Server u der
-[17:11:48] [Thread-13/INFO]: UUID of player Dayrod009__ is d79a6ff2-30d3-3c92-afbd-5162eb451212
-[17:11:48] [Server thread/INFO]: Dayrod009__[/[0:0:0:0:0:0:0:1]:55676] logged in with entity id 3655 at ([world]551.5, 79.0, 441.5)
-[17:11:57] [Server thread/INFO]: Dayrod009__ lost connection: Disconnected
-[17:11:57] [Server thread/INFO]: Dayrod009__ left the game.
-[17:12:10] [Thread-14/INFO]: UUID of player Dayrod009 is ddc482d0-b779-37fb-88bb-2190281a831a
-[17:12:10] [Server thread/INFO]: Dayrod009[/[0:0:0:0:0:0:0:1]:40874] logged in with entity id 4071 at ([world]4.470580410946708, 1.0, 0.799782643002568)
-[17:12:41] [Server thread/INFO]: Dayrod009 issued server command: /tp Dayrod009 1 100 0
-[17:12:41] [Server thread/INFO]: [Dayrod009: Teleported Dayrod009 to 1.5, 100.0, 0.5]
-[17:14:46] [Thread-15/INFO]: UUID of player Ender_Guy is 24aebbb2-6abe-346b-b323-dba9b0280d5c
-[17:14:46] [Server thread/INFO]: Ender_Guy[/[0:0:0:0:0:0:0:1]:35364] logged in with entity id 4292 at ([world]-498.3240266306165, 68.0, 126.49632962668531)
-[17:15:53] [Server thread/INFO]: Dayrod009 issued server command: /give @p minecraft:diamond_hoe 1 0 {ench:[{id:19,lvl:10000}]}
-[17:15:53] [Server thread/INFO]: [Dayrod009: Given [Diamond Hoe] * 1 to Dayrod009]
-[17:16:05] [Server thread/INFO]: Dayrod009 issued server command: /tpa Ender_Guy
-[17:16:19] [Server thread/INFO]: Ender_Guy issued server command: /tpaccept
-[17:16:46] [Async Chat Thread - #0/INFO]: <Ender_Guy> see soon need lunch[m
+[19:35:30] [Server thread/INFO]: Unknown command. Type "/help" for help.[m
 
-[17:16:50] [Server thread/INFO]: Ender_Guy lost connection: Disconnected
-[17:16:50] [Server thread/INFO]: Ender_Guy left the game.
-[17:20:19] [Server thread/INFO]: Dayrod009 issued server command: /give @p minecraft:apple 1 0 {ench:[{id:13,lvl:10000}]}
-[17:20:19] [Server thread/INFO]: [Dayrod009: Given [Apple] * 1 to Dayrod009]
-[17:21:37] [Thread-16/INFO]: UUID of player Ender_Guy is 24aebbb2-6abe-346b-b323-dba9b0280d5c
-[17:21:37] [Server thread/INFO]: Ender_Guy[/[0:0:0:0:0:0:0:1]:56120] logged in with entity id 5200 at ([world]-470.8249489205902, 61.0, 169.14231249575806)
-[17:22:25] [Server thread/INFO]: Dayrod009 issued server command: /home Ender_Guy
-[17:22:48] [Server thread/WARN]: Ender_Guy moved wrongly!
-[17:23:44] [Server thread/INFO]: Dayrod009 was slain by Ender_Guy
-[17:23:59] [Server thread/INFO]: * Server no take
-[17:23:59] [Server thread/INFO]: Dayrod009 lost connection: Timed out
-[17:23:59] [Server thread/INFO]: Dayrod009 left the game.
-[17:24:02] [Server thread/INFO]: * Server i crashed
-[17:24:17] [Server thread/INFO]: * Server no take
-[17:24:29] [Server thread/INFO]: Cannot summon the object out of the world
-[17:24:48] [Server thread/INFO]: * Server leave the stuffs
-[17:25:20] [Thread-17/INFO]: UUID of player Dayrod009 is ddc482d0-b779-37fb-88bb-2190281a831a
-[17:25:20] [Server thread/INFO]: Dayrod009[/[0:0:0:0:0:0:0:1]:41688] logged in with entity id 5870 at ([world]-526.3557896405879, 63.0, 134.9446293340478)
-[17:25:29] [Server thread/INFO]: Dayrod009 issued server command: /back
-[17:25:37] [Server thread/INFO]: Dayrod009 issued server command: /back
-[17:25:44] [Server thread/INFO]: Dayrod009 issued server command: /home Ender_Guy
-[17:25:51] [Async Chat Thread - #1/INFO]: <Dayrod009> gib[m
+[19:35:36] [Server thread/INFO]: [0;33;1m--------- [0;37;1mHelp: PlayerCarry [0;33;1m---------------------[m
 
-[17:26:05] [Async Chat Thread - #1/INFO]: <Ender_Guy> did nothing for real[m
+[19:35:36] [Server thread/INFO]: [0;37;22mBelow is a list of all PlayerCarry commands:[m
 
-[17:26:15] [Async Chat Thread - #1/INFO]: <Dayrod009> the sword, the armor, the hoe, and the shovel[m
+[19:35:36] [Server thread/INFO]: [0;33;22m/carry: [0;37;1mCarry a player on your shoulders![m
 
-[17:26:15] [Async Chat Thread - #1/INFO]: <Ender_Guy> im not joking[m
+[19:35:36] [Server thread/INFO]: [0;33;22m/uncarry: [0;37;1mPut down the player you are carrying![m
 
-[17:26:18] [Async Chat Thread - #1/INFO]: <Dayrod009> give them[m
-
-[17:26:25] [Async Chat Thread - #1/INFO]: <Dayrod009> thanks[m
-
-[17:26:50] [Async Chat Thread - #1/INFO]: <Ender_Guy> now leave NO TRESSPASSING!!!![m
-
-[17:27:15] [Server thread/INFO]: Dayrod009 issued server command: /give @p minecraft:command_block
-[17:27:15] [Server thread/INFO]: [Dayrod009: Given [Command Block] * 1 to Dayrod009]
-[17:27:46] [Server thread/INFO]: Dayrod009 issued server command: /effect @p minecraft:invisibility 1000000 2 true
-[17:27:46] [Server thread/INFO]: [Dayrod009: Given Invisibility (ID 14) * 2 to Dayrod009 for 1000000 seconds]
-[17:27:58] [Async Chat Thread - #2/INFO]: <Ender_Guy> beef for sale[m
-
-[17:28:06] [Server thread/INFO]: Dayrod009 issued server command: /gamemode creative
-[17:28:06] [Server thread/INFO]: [Dayrod009: Set own game mode to Creative Mode]
-[17:28:36] [Server thread/INFO]: Dayrod009 issued server command: /give @p lever
-[17:28:36] [Server thread/INFO]: [Dayrod009: Given [Lever] * 1 to Dayrod009]
-[17:28:42] [Server thread/INFO]: Dayrod009 issued server command: /gamemode survival
-[17:28:42] [Server thread/INFO]: [Dayrod009: Set own game mode to Survival Mode]
-[17:28:43] [Server thread/INFO]: Ender_Guy fell out of the world
-[17:28:43] [Server thread/INFO]: [@: Killed Ender_Guy]
-[17:28:50] [Server thread/INFO]: Ender_Guy issued server command: /back
-[17:29:52] [Async Chat Thread - #3/INFO]: <Dayrod009> hehe[m
-
-[17:30:11] [Server thread/INFO]: * Server what happened
-[17:30:31] [Server thread/INFO]: Dayrod009 lost connection: Timed out
-[17:30:31] [Server thread/INFO]: Dayrod009 left the game.
-[17:30:34] [Async Chat Thread - #3/INFO]: <Ender_Guy> DUDE WHY MESS WITH MY SKY BASE IT NOT EVEN DONE!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!![m
-
-[17:30:41] [Server thread/INFO]: * Server what u mean
-[17:30:54] [Server thread/INFO]: * Server i "improved it"
-[17:31:19] [Async Chat Thread - #3/INFO]: <Ender_Guy> no its suposted to be endstone and have a cassle[m
-
-[17:31:35] [Server thread/INFO]: There is no such item with name minecraft:endstone
-[17:31:57] [Thread-19/INFO]: UUID of player Dayrod009 is ddc482d0-b779-37fb-88bb-2190281a831a
-[17:31:57] [Server thread/INFO]: Dayrod009[/[0:0:0:0:0:0:0:1]:49964] logged in with entity id 6673 at ([world]-511.9830284882639, 63.0, 132.00965109267673)
-[17:32:16] [Server thread/INFO]: Dayrod009 issued server command: /summon Herobrine
-[17:32:16] [Server thread/WARN]: Skipping Entity with id Herobrine
-[17:32:16] [Server thread/INFO]: [Dayrod009: Unable to summon object]
-[17:32:33] [Server thread/INFO]: Dayrod009 issued server command: /tp Dayrod009 Ender_Guy
-[17:32:33] [Server thread/INFO]: [Dayrod009: Teleported Dayrod009 to Ender_Guy]
-[17:32:39] [Server thread/INFO]: Dayrod009 issued server command: /gamemode 1
-[17:32:39] [Server thread/INFO]: [Dayrod009: Set own game mode to Creative Mode]
-[17:32:39] [Async Chat Thread - #4/INFO]: <Ender_Guy> DUDE WHY PUT A PENUS[m
-
-[17:33:46] [Async Chat Thread - #5/INFO]: <Dayrod009> what penis[m
-
-[17:34:01] [Server thread/INFO]: Dayrod009 issued server command: /gamemode survival
-[17:34:01] [Server thread/INFO]: [Dayrod009: Set own game mode to Survival Mode]
-[17:34:08] [Async Chat Thread - #5/INFO]: <Ender_Guy> Now you have to help me for tress[m
-
-[17:34:14] [Async Chat Thread - #5/INFO]: <Ender_Guy> passing[m
-
-[17:34:17] [Server thread/INFO]: Dayrod009 issued server command: /give @p stick
-[17:34:17] [Server thread/INFO]: [Dayrod009: Given [Stick] * 1 to Dayrod009]
-[17:34:23] [Server thread/INFO]: Dayrod009 issued server command: //tre
-[17:34:25] [Server thread/INFO]: Dayrod009 issued server command: //tree
-[17:34:26] [Async Chat Thread - #5/INFO]: <Ender_Guy> and vandalisum[m
-
-[17:34:41] [Async Chat Thread - #5/INFO]: <Ender_Guy> NO TREES[m
-
-[17:34:51] [Async Chat Thread - #5/INFO]: <Dayrod009> u said trees[m
-
-[17:35:01] [Server thread/INFO]: Dayrod009 issued server command: //wand
-[17:35:05] [Server thread/INFO]: Dayrod009 issued server command: /gamemode creative
-[17:35:05] [Server thread/INFO]: [Dayrod009: Set own game mode to Creative Mode]
-[17:35:09] [Async Chat Thread - #5/INFO]: <Ender_Guy> I said tresspassing[m
-
-[17:35:36] [Server thread/INFO]: Dayrod009 issued server command: //restore
-[17:35:45] [Server thread/INFO]: Dayrod009 issued server command: //cut
-[17:35:56] [Async Chat Thread - #5/INFO]: <Dayrod009> there[m
-
-[17:36:12] [Server thread/INFO]: Dayrod009 issued server command: //paste
-[17:36:16] [Async Chat Thread - #5/INFO]: <Ender_Guy> now build a end themed Island[m
-
-[17:36:21] [Async Chat Thread - #5/INFO]: <Dayrod009> no[m
-
-[17:36:26] [Async Chat Thread - #5/INFO]: <Dayrod009> ive done enough[m
-
-[17:36:50] [Async Chat Thread - #5/INFO]: <Ender_Guy> no you did vandalium and this IS YOUR PUNISHMENT[m
-
-[17:36:54] [Server thread/INFO]: Dayrod009 issued server command: /gamemode survival
-[17:36:54] [Server thread/INFO]: [Dayrod009: Set own game mode to Survival Mode]
-[17:37:44] [Async Chat Thread - #5/INFO]: <Dayrod009> u like mooshroooms?[m
-
-[17:37:48] [Async Chat Thread - #5/INFO]: <Dayrod009> i put them[m
-
-[17:37:55] [Async Chat Thread - #5/INFO]: <Ender_Guy> yes[m
-
-[17:38:05] [Async Chat Thread - #5/INFO]: <Dayrod009> u monster[m
-
-[17:38:14] [Async Chat Thread - #5/INFO]: <Ender_Guy> only mushrooms[m
-
-[17:38:17] [Async Chat Thread - #5/INFO]: <Dayrod009> its more like dis[m
-
-[17:38:26] [Async Chat Thread - #5/INFO]: <Dayrod009> der[m
-
-[17:39:16] [Server thread/INFO]: Dayrod009 issued server command: /give Ender_Guy minecraft:apple 1 0 {ench:[{id:19,lvl:10000}]}
-[17:39:16] [Server thread/INFO]: [Dayrod009: Given [Apple] * 1 to Ender_Guy]
-[17:39:24] [Async Chat Thread - #5/INFO]: <Dayrod009> special apples[m
-
-[17:39:46] [Async Chat Thread - #5/INFO]: <Dayrod009> oops[m
-
-[17:40:07] [Async Chat Thread - #5/INFO]: <Ender_Guy> encant blaze rod[m
-
-[17:40:13] [Server thread/INFO]: Dayrod009 issued server command: /give Ender_Guy farmland 64
-[17:40:13] [Server thread/INFO]: [Dayrod009: Given [Farmland] * 64 to Ender_Guy]
-[17:40:41] [Server thread/INFO]: Ender_Guy lost connection: Disconnected
-[17:40:41] [Server thread/INFO]: Ender_Guy left the game.
-[17:41:03] [Server thread/INFO]: Dayrod009 issued server command: /give @p minecraft:blaze_rod 1 0 {ench:[{id:20,lvl:100}]}
-[17:41:03] [Server thread/INFO]: [Dayrod009: Given [Blaze Rod] * 1 to Dayrod009]
-[17:41:16] [Server thread/INFO]: Dayrod009 issued server command: /give @p item_frame
-[17:41:16] [Server thread/INFO]: [Dayrod009: Given [Item Frame] * 1 to Dayrod009]
-[17:43:21] [Thread-20/INFO]: UUID of player Ender_Guy is 24aebbb2-6abe-346b-b323-dba9b0280d5c
-[17:43:21] [Server thread/INFO]: Ender_Guy[/[0:0:0:0:0:0:0:1]:36782] logged in with entity id 7503 at ([world]-503.80456187951245, 63.0, 136.14665252009254)
-[17:44:00] [Async Chat Thread - #6/INFO]: <Dayrod009> u like?[m
-
-[17:44:04] [Async Chat Thread - #6/INFO]: <Ender_Guy> yes[m
-
-[17:44:08] [Async Chat Thread - #6/INFO]: <Dayrod009> use[m
-
-[17:44:16] [Async Chat Thread - #6/INFO]: <Dayrod009> try on me[m
-
-[17:44:18] [Async Chat Thread - #6/INFO]: <Ender_Guy> on what[m
-
-[17:44:22] [Async Chat Thread - #6/INFO]: <Dayrod009> im in front of u[m
-
-[17:44:45] [Server thread/INFO]: Dayrod009 was slain by Ender_Guy
-[17:44:49] [Server thread/INFO]: Dayrod009 issued server command: /back
-[17:44:51] [Async Chat Thread - #6/INFO]: <Dayrod009> nono[m
-
-[17:45:48] [Server thread/INFO]: Dayrod009 issued server command: /effect Ender_Guy minecraft:jump_boost 1000000 128 true
-[17:45:48] [Server thread/INFO]: [Dayrod009: Given Jump Boost (ID 8) * 128 to Ender_Guy for 1000000 seconds]
-[17:45:57] [Async Chat Thread - #7/INFO]: <Dayrod009> jump[m
-
-[17:46:13] [Async Chat Thread - #7/INFO]: <Ender_Guy> I have jumpost[m
-
-[17:46:17] [Async Chat Thread - #7/INFO]: <Dayrod009> try[m
-
-[17:46:28] [Async Chat Thread - #7/INFO]: <Ender_Guy> im to hevey[m
-
-[17:46:33] [Async Chat Thread - #7/INFO]: <Dayrod009> hehe[m
-
-[17:46:38] [Server thread/INFO]: Dayrod009 issued server command: /give Ender_Guy minecraft:milk_bucket
-[17:46:38] [Server thread/INFO]: [Dayrod009: Given [Milk] * 1 to Ender_Guy]
-[17:46:46] [Async Chat Thread - #7/INFO]: <Dayrod009> drink up[m
-
-[17:47:00] [Server thread/INFO]: Dayrod009 issued server command: /effect Ender_Guy minecraft:jump_boost 1000000 127 true
-[17:47:00] [Server thread/INFO]: [Dayrod009: Given Jump Boost (ID 8) * 127 to Ender_Guy for 1000000 seconds]
-[17:47:07] [Async Chat Thread - #7/INFO]: <Dayrod009> now try[m
-
-[17:47:12] [Server thread/WARN]: Ender_Guy moved too quickly! 0.0,13.220000177621841,0.0 (0.0, 13.220000177621841, 0.0)
-[17:47:13] [Server thread/WARN]: Ender_Guy moved too quickly! 0.0,13.220000177621841,0.0 (0.0, 13.220000177621841, 0.0)
-[17:47:14] [Server thread/WARN]: Ender_Guy moved too quickly! 0.0,13.220000177621841,0.0 (0.0, 13.220000177621841, 0.0)
-[17:47:15] [Server thread/WARN]: Ender_Guy moved too quickly! -0.24839851277141634,13.220000177621841,0.014681048877577041 (-0.24839851277141634, 13.220000177621841, 0.014681048877577041)
-[17:47:15] [Server thread/WARN]: Ender_Guy moved too quickly! -0.09578269798385008,13.220000177621841,0.1482158749447251 (-0.09578269798385008, 13.220000177621841, 0.1482158749447251)
-[17:47:16] [Server thread/WARN]: Ender_Guy moved too quickly! 0.0,13.220000177621841,0.0 (0.0, 13.220000177621841, 0.0)
-[17:47:16] [Server thread/WARN]: Ender_Guy moved too quickly! 0.0,13.220000177621841,0.0 (0.0, 13.220000177621841, 0.0)
-[17:47:16] [Server thread/WARN]: Ender_Guy moved too quickly! 0.0,13.220000177621841,0.0 (0.0, 13.220000177621841, 0.0)
-[17:47:17] [Server thread/WARN]: Ender_Guy moved too quickly! 0.0,13.220000177621841,0.0 (0.0, 13.220000177621841, 0.0)
-[17:47:17] [Server thread/WARN]: Ender_Guy moved too quickly! 0.0,13.220000177621841,0.0 (0.0, 13.220000177621841, 0.0)
-[17:47:18] [Server thread/WARN]: Ender_Guy moved too quickly! 0.0,13.220000177621841,0.0 (0.0, 13.220000177621841, 0.0)
-[17:47:18] [Server thread/WARN]: Ender_Guy moved too quickly! 0.0,13.220000177621841,0.0 (0.0, 13.220000177621841, 0.0)
-[17:47:19] [Server thread/WARN]: Ender_Guy moved too quickly! 0.0,13.220000177621841,0.0 (0.0, 13.220000177621841, 0.0)
-[17:47:20] [Server thread/WARN]: Ender_Guy moved too quickly! -0.1993761783443233,13.220000177621841,-0.03454470957908029 (-0.1993761783443233, 13.220000177621841, -0.03454470957908029)
-[17:47:20] [Server thread/WARN]: Ender_Guy moved too quickly! -0.13649816908838375,13.220000177621841,-0.1931037755223599 (-0.13649816908838375, 13.220000177621841, -0.1931037755223599)
-[17:47:20] [Server thread/WARN]: Ender_Guy moved too quickly! -0.1881250613729435,13.220000177621841,-0.030589473784488064 (-0.1881250613729435, 13.220000177621841, -0.030589473784488064)
-[17:47:21] [Server thread/WARN]: Ender_Guy moved too quickly! -0.1881250613729435,13.220000177621841,-0.030589473784488064 (-0.1881250613729435, 13.220000177621841, -0.030589473784488064)
-[17:47:21] [Server thread/WARN]: Ender_Guy moved too quickly! -0.1164550545217935,13.220000177621841,-0.15058864911455316 (-0.1164550545217935, 13.220000177621841, -0.15058864911455316)
-[17:47:21] [Server thread/WARN]: Ender_Guy moved too quickly! -0.13180320204037344,26.09720060231686,-0.18646181197817668 (-0.13180320204037344, 26.09720060231686, -0.18646181197817668)
-[17:47:22] [Server thread/WARN]: Ender_Guy moved too quickly! -0.2205464069268146,26.09720060231686,-0.02896196349223601 (-0.2205464069268146, 26.09720060231686, -0.02896196349223601)
-[17:47:22] [Server thread/WARN]: Ender_Guy moved too quickly! -0.20576620632834874,13.220000177621841,-0.04697077510209624 (-0.20576620632834874, 13.220000177621841, -0.04697077510209624)
-[17:47:23] [Server thread/WARN]: Ender_Guy moved too quickly! 0.0,13.220000177621841,-0.006316040227744679 (0.0, 13.220000177621841, -0.006316040227744679)
-[17:47:30] [Async Chat Thread - #7/INFO]: <Dayrod009> jump[m
-
-[17:47:42] [Server thread/INFO]: Dayrod009 issued server command: /effect Ender_Guy minecraft:jump_boost 1000000 97 true
-[17:47:42] [Server thread/INFO]: [Dayrod009: Given Jump Boost (ID 8) * 97 to Ender_Guy for 1000000 seconds]
-[17:47:55] [Server thread/INFO]: Dayrod009 issued server command: /effect Ender_Guy minecraft:resistance 1000000 255 true
-[17:47:55] [Server thread/INFO]: [Dayrod009: Given Resistance (ID 11) * 255 to Ender_Guy for 1000000 seconds]
-[17:47:57] [Async Chat Thread - #7/INFO]: <Dayrod009> now[m
-
-[17:48:09] [Async Chat Thread - #7/INFO]: <Ender_Guy> get name tag that says Toast and put on a rabbit[m
-
-[17:48:10] [Server thread/WARN]: Ender_Guy moved too quickly! 0.0,10.220000132918358,0.0 (0.0, 10.220000132918358, 0.0)
-[17:48:11] [Server thread/WARN]: Ender_Guy moved too quickly! 0.0,10.220000132918358,0.0 (0.0, 10.220000132918358, 0.0)
-[17:48:11] [Server thread/WARN]: Ender_Guy moved too quickly! 0.0,10.220000132918358,0.0 (0.0, 10.220000132918358, 0.0)
-[17:48:13] [Server thread/WARN]: Ender_Guy moved too quickly! 0.216188479374523,10.220000132918358,0.03193374580231989 (0.216188479374523, 10.220000132918358, 0.03193374580231989)
-[17:48:13] [Server thread/WARN]: Ender_Guy moved too quickly! 0.130482688495988,10.220000132918358,0.1691498193015093 (0.130482688495988, 10.220000132918358, 0.1691498193015093)
-[17:48:14] [Server thread/WARN]: Ender_Guy moved too quickly! 0.13143438336368263,10.220000132918358,0.17038353863051725 (0.13143438336368263, 10.220000132918358, 0.17038353863051725)
-[17:48:14] [Server thread/WARN]: Ender_Guy moved too quickly! 0.1310982737771269,10.220000132918358,0.07759201893995282 (0.1310982737771269, 10.220000132918358, 0.07759201893995282)
-[17:48:15] [Server thread/WARN]: Ender_Guy moved too quickly! 0.1310982737771269,10.220000132918358,0.07759201893995282 (0.1310982737771269, 10.220000132918358, 0.07759201893995282)
-[17:48:15] [Server thread/WARN]: Ender_Guy moved too quickly! 0.130482688495988,10.220000132918358,0.07759201893995282 (0.130482688495988, 10.220000132918358, 0.07759201893995282)
-[17:48:43] [Server thread/INFO]: Dayrod009 issued server command: /effect Ender_Guy minecraft:resistance 1000000 255 true
-[17:48:43] [Server thread/INFO]: [Dayrod009: Given Resistance (ID 11) * 255 to Ender_Guy for 1000000 seconds]
-[17:48:49] [Async Chat Thread - #7/INFO]: <Ender_Guy> I got this milk from milking u[m
-
-[17:49:05] [Server thread/INFO]: Ender_Guy lost connection: Disconnected
-[17:49:05] [Server thread/INFO]: Ender_Guy left the game.
-[17:50:11] [Server thread/INFO]: Dayrod009 issued server command: /give @p minecraft:milk_bucket 1 0 {ench:[{id:35,lvl:10000}]}
-[17:50:11] [Server thread/INFO]: [Dayrod009: Given [Milk] * 1 to Dayrod009]
-[17:50:24] [Server thread/INFO]: Dayrod009 issued server command: /give @p minecraft:diamond_ore
-[17:50:24] [Server thread/INFO]: [Dayrod009: Given [Diamond Ore] * 1 to Dayrod009]
-[17:52:03] [Server thread/INFO]: Dayrod009 issued server command: /give @p minecraft:diamond_pickaxe 1 0 {ench:[{id:35,lvl:10000}]}
-[17:52:03] [Server thread/INFO]: [Dayrod009: Given [Diamond Pickaxe] * 1 to Dayrod009]
-[17:52:14] [Server thread/INFO]: Dayrod009 issued server command: /give @p diamond_ore
-[17:52:14] [Server thread/INFO]: [Dayrod009: Given [Diamond Ore] * 1 to Dayrod009]
-[17:54:00] [Server thread/INFO]: Dayrod009 issued server command: /give @p minecraft:poisonous_potato 1 0 {ench:[{id:21,lvl:100}]}
-[17:54:00] [Server thread/INFO]: [Dayrod009: Given [Poisonous Potato] * 1 to Dayrod009]
-[17:54:14] [Server thread/INFO]: Dayrod009 issued server command: /summon Zombie
-[17:54:14] [Server thread/INFO]: [Dayrod009: Object successfully summoned]
-[17:55:34] [Server thread/INFO]: Dayrod009 issued server command: /summon Herobrine -421 69 122
-[17:55:34] [Server thread/WARN]: Skipping Entity with id Herobrine
-[17:55:34] [Server thread/INFO]: [Dayrod009: Unable to summon object]
-[17:56:15] [Server thread/INFO]: Dayrod009 fell from a high place
-[17:56:19] [Server thread/INFO]: Dayrod009 issued server command: /back
-[17:56:35] [Server thread/INFO]: Dayrod009 lost connection: Disconnected
-[17:56:35] [Server thread/INFO]: Dayrod009 left the game.
-[17:57:18] [Thread-21/INFO]: UUID of player Dayrod009 is ddc482d0-b779-37fb-88bb-2190281a831a
-[17:57:18] [Server thread/INFO]: Dayrod009[/[0:0:0:0:0:0:0:1]:37356] logged in with entity id 8788 at ([world]-445.8525405388989, 57.0, 109.1885369581894)
-[17:58:46] [Server thread/INFO]: Dayrod009 issued server command: /give @p minecraft:diamond_sword 1 0 {ench:[{id:21,lvl:1000}]}
-[17:58:46] [Server thread/INFO]: [Dayrod009: Given [Diamond Sword] * 1 to Dayrod009]
-[18:00:50] [Server thread/INFO]: Dayrod009 issued server command: /summon Enderman
-[18:00:50] [Server thread/INFO]: [Dayrod009: Object successfully summoned]
-[18:01:23] [Server thread/INFO]: Dayrod009 hit the ground too hard
-[18:01:28] [Server thread/INFO]: Dayrod009 issued server command: /back
-[18:01:40] [Server thread/INFO]: Dayrod009 issued server command: /effect @p minecraft:resistance 1000000 255 true
-[18:01:40] [Server thread/INFO]: [Dayrod009: Given Resistance (ID 11) * 255 to Dayrod009 for 1000000 seconds]
-[18:02:32] [Server thread/INFO]: Dayrod009 lost connection: Disconnected
-[18:02:32] [Server thread/INFO]: Dayrod009 left the game.
-[18:16:47] [Thread-23/INFO]: UUID of player Dayrod009 is ddc482d0-b779-37fb-88bb-2190281a831a
-[18:16:47] [Server thread/INFO]: Dayrod009[/[0:0:0:0:0:0:0:1]:54314] logged in with entity id 14411 at ([world]-431.54334961119935, 66.0, 153.13290171764496)
-[18:18:47] [Server thread/INFO]: Dayrod009 issued server command: /gm
-[18:18:50] [Server thread/INFO]: Dayrod009 issued server command: /gamemode creative
-[18:18:50] [Server thread/INFO]: [Dayrod009: Set own game mode to Creative Mode]
-[18:18:54] [Server thread/INFO]: Dayrod009 issued server command: /tp Dayrod009 29999984 69 29999984
-[18:18:54] [Server thread/INFO]: [Dayrod009: Teleported Dayrod009 to 2.99999845E7, 69.0, 2.99999845E7]
-[18:19:38] [Server thread/INFO]: Dayrod009 issued server command: /tp Dayrod009 29999980 69 29999980
-[18:19:38] [Server thread/INFO]: [Dayrod009: Teleported Dayrod009 to 2.99999805E7, 69.0, 2.99999805E7]
-[18:20:19] [Server thread/INFO]: Dayrod009 issued server command: /home Ender_Guy
-[18:20:45] [Server thread/INFO]: Dayrod009 issued server command: /gamemode survival
-[18:20:45] [Server thread/INFO]: [Dayrod009: Set own game mode to Survival Mode]
-[18:21:34] [Server thread/INFO]: Dayrod009 issued server command: /effect @p minecraft:regeneration 1000000 255 true
-[18:21:34] [Server thread/INFO]: [Dayrod009: Given Regeneration (ID 10) * 255 to Dayrod009 for 1000000 seconds]
-[18:22:39] [Server thread/INFO]: Dayrod009 issued server command: /give @p minecraft:ender_chest
-[18:22:39] [Server thread/INFO]: [Dayrod009: Given [Ender Chest] * 1 to Dayrod009]
-[18:23:18] [Server thread/INFO]: Dayrod009 issued server command: //
-[18:23:32] [Server thread/INFO]: Dayrod009 issued server command: /gamemode creative
-[18:23:32] [Server thread/INFO]: [Dayrod009: Set own game mode to Creative Mode]
-[18:25:14] [Server thread/INFO]: Dayrod009 issued server command: /gamemode
-[18:25:19] [Server thread/INFO]: Dayrod009 issued server command: /gamemode survival
-[18:25:19] [Server thread/INFO]: [Dayrod009: Set own game mode to Survival Mode]
