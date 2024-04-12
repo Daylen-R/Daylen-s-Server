@@ -35,11 +35,10 @@ world-settings:
       village: true
       flat-bedrock: false
     allow-block-location-tab-completion: true
+    fast-drain:
+      lava: false
+      water: false
     disable-teleportation-suffocation-check: false
-    remove-unloaded:
-      enderpearls: true
-      tnt-entities: true
-      falling-blocks: true
     game-mechanics:
       boats-drop-boats: false
       disable-player-crits: false
@@ -72,9 +71,10 @@ world-settings:
       soft: 32
       hard: 128
     falling-block-height-nerf: 0
-    fast-drain:
-      lava: false
-      water: false
+    remove-unloaded:
+      enderpearls: true
+      tnt-entities: true
+      falling-blocks: true
     lava-flow-speed:
       normal: 30
       nether: 10
