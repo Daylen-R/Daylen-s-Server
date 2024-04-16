@@ -6,6 +6,12 @@
     "bypassesPlayerLimit": false
   },
   {
+    "uuid": "3c00b58d-a066-4f52-a2b7-615641dcbe00",
+    "name": "Server",
+    "level": 4,
+    "bypassesPlayerLimit": false
+  },
+  {
     "uuid": "ddc482d0-b779-37fb-88bb-2190281a831a",
     "name": "Dayrod009",
     "level": 4,
