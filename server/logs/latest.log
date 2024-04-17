@@ -243,3 +243,14 @@ Changelog: https://github.com/SpraxDev/BetterChairs/blob/master/CHANGELOG.md#ver
 [00:20:56] [Server thread/INFO]: Opped Dayrod009
 [00:21:41] [Server thread/INFO]: Usage: /op <player>
 [00:21:43] [Server thread/INFO]: Usage: /deop <player>
+[00:25:01] [Thread-2/INFO]: Stopping server
+[00:25:01] [Thread-2/INFO]: [LoginSecurity] Disabling LoginSecurity v3.2.0
+[00:25:01] [Thread-2/INFO]: [LoginSecurity] Waiting for queued tasks...
+[00:25:01] [Thread-2/INFO]: [LoginSecurity] ExecutorService shut down, ready to disable.
+[00:25:01] [Thread-2/INFO]: [IPortal] Disabling IPortal v1.0
+[00:25:01] [Thread-2/INFO]: [IPortal] IPortal has been disabled!
+[00:25:01] [Thread-2/INFO]: [0;36;1m[21m[SimpleTpa] If you need support contact me at https://discord.gg/SZUkza9[m
+
+[00:25:01] [Thread-2/INFO]: [0;36;1m[21m[SimpleTpa] Simple Tpa has been disabled on version 6.4[m
+
+[00:25:01] [Thread-2/INFO]: Saving players
