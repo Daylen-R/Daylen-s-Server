@@ -7,7 +7,7 @@
 
 
 # You shouldn't make any changes to this
-version: 0
+version: 3
 Chairs:
 
   # Enabling this makes BetterChairs use Arrows instead of ArmorStands.

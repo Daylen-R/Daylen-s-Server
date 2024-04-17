@@ -1,31 +1,7 @@
 [
   {
-    "uuid": "bdc4aba8-9c49-3921-823b-8bb91c1b5fec",
-    "name": "Onion",
-    "level": 4,
-    "bypassesPlayerLimit": false
-  },
-  {
-    "uuid": "3c00b58d-a066-4f52-a2b7-615641dcbe00",
-    "name": "Server",
-    "level": 4,
-    "bypassesPlayerLimit": false
-  },
-  {
     "uuid": "ddc482d0-b779-37fb-88bb-2190281a831a",
     "name": "Dayrod009",
-    "level": 4,
-    "bypassesPlayerLimit": false
-  },
-  {
-    "uuid": "a3363191-562c-3952-8759-ffbc6d80f983",
-    "name": "hamsuplou",
-    "level": 4,
-    "bypassesPlayerLimit": false
-  },
-  {
-    "uuid": "25966168-dc9c-360c-8f32-ed022bfa1070",
-    "name": "Herobrine",
     "level": 4,
     "bypassesPlayerLimit": false
   }
