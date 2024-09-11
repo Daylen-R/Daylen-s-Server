@@ -50,3 +50,67 @@
 [19:16:24] [EaglerXBungee: Network Tick Tasks/INFO] [EaglercraftXBungee]: Downloading new certificate: https://eaglercraft.com/backup.cert
 [19:16:24] [EaglerXBungee: Network Tick Tasks/INFO] [EaglercraftXBungee]: Loaded certificate: /workspaces/Daylen-s-Server/bungee/plugins/EaglercraftXBungee/eagcert/$dl.24a1bafc15c675276968d78cdcb55a04992bddb0.cert
 [19:16:24] [EaglerXBungee: Network Tick Tasks/INFO] [EaglercraftXBungee]: Loaded certificate: /workspaces/Daylen-s-Server/bungee/plugins/EaglercraftXBungee/eagcert/$dl.2c63d6a9be9d273db57d50cb026093cb97ea6e54.cert
+[19:24:09] [Netty Worker IO Thread #0/WARN] [EaglercraftXBungee]: Server icon is not a file: /workspaces/Daylen-s-Server/bungee/server-icon.png
+[19:24:12] [Netty Worker IO Thread #1/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:54122]: Connected via websocket
+[19:24:12] [Netty Worker IO Thread #1/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:54122]: Origin header is http://localhost:8081
+[19:24:12] [Netty Worker IO Thread #1/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:54122]: Logged in as 'ViggYigg857'
+[19:24:12] [Netty Worker IO Thread #1/INFO]: [/[0:0:0:0:0:0:0:1%0]:54122|ViggYigg857] -> UpstreamBridge has connected
+[19:24:12] [Netty Worker IO Thread #1/INFO]: [ViggYigg857|/[0:0:0:0:0:0:0:1%0]:54122] <-> ServerConnector [lobby] has connected
+[19:24:12] [Netty Worker IO Thread #1/ERROR]: [ViggYigg857|/[0:0:0:0:0:0:0:1%0]:54122] <-> ServerConnector [lobby] - encountered exception: net.md_5.bungee.util.QuietException: Server is online mode!
+[19:24:12] [Netty Worker IO Thread #1/INFO]: [ViggYigg857] disconnected with: Exception Connecting:QuietException : Server is online mode!
+[19:24:12] [Netty Worker IO Thread #1/INFO]: [/[0:0:0:0:0:0:0:1%0]:54122|ViggYigg857] -> UpstreamBridge has disconnected
+[19:24:12] [Netty Worker IO Thread #1/INFO]: [ViggYigg857|/[0:0:0:0:0:0:0:1%0]:54122] <-> ServerConnector [lobby] has disconnected
+[19:24:15] [Netty Worker IO Thread #2/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:36674]: Connected via websocket
+[19:24:15] [Netty Worker IO Thread #2/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:36674]: Origin header is http://localhost:8081
+[19:24:15] [Netty Worker IO Thread #2/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:36674]: Logged in as 'ViggYigg857'
+[19:24:15] [Netty Worker IO Thread #2/INFO]: [/[0:0:0:0:0:0:0:1%0]:36674|ViggYigg857] -> UpstreamBridge has connected
+[19:24:15] [Netty Worker IO Thread #2/INFO]: [ViggYigg857|/[0:0:0:0:0:0:0:1%0]:36674] <-> ServerConnector [lobby] has connected
+[19:24:15] [Netty Worker IO Thread #2/ERROR]: [ViggYigg857|/[0:0:0:0:0:0:0:1%0]:36674] <-> ServerConnector [lobby] - encountered exception: net.md_5.bungee.util.QuietException: Server is online mode!
+[19:24:15] [Netty Worker IO Thread #2/INFO]: [ViggYigg857] disconnected with: Exception Connecting:QuietException : Server is online mode!
+[19:24:15] [Netty Worker IO Thread #2/INFO]: [/[0:0:0:0:0:0:0:1%0]:36674|ViggYigg857] -> UpstreamBridge has disconnected
+[19:24:15] [Netty Worker IO Thread #2/INFO]: [ViggYigg857|/[0:0:0:0:0:0:0:1%0]:36674] <-> ServerConnector [lobby] has disconnected
+[19:24:24] [Netty Worker IO Thread #0/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:34376]: Connected via websocket
+[19:24:24] [Netty Worker IO Thread #0/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:34376]: Origin header is http://localhost:8081
+[19:24:24] [Netty Worker IO Thread #0/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:34376]: Logged in as 'ViggYigg857'
+[19:24:24] [Netty Worker IO Thread #0/INFO]: [/[0:0:0:0:0:0:0:1%0]:34376|ViggYigg857] -> UpstreamBridge has connected
+[19:24:24] [Netty Worker IO Thread #0/INFO]: [ViggYigg857|/[0:0:0:0:0:0:0:1%0]:34376] <-> ServerConnector [lobby] has connected
+[19:24:24] [Netty Worker IO Thread #0/ERROR]: [ViggYigg857|/[0:0:0:0:0:0:0:1%0]:34376] <-> ServerConnector [lobby] - encountered exception: net.md_5.bungee.util.QuietException: Server is online mode!
+[19:24:24] [Netty Worker IO Thread #0/INFO]: [ViggYigg857] disconnected with: Exception Connecting:QuietException : Server is online mode!
+[19:24:24] [Netty Worker IO Thread #0/INFO]: [/[0:0:0:0:0:0:0:1%0]:34376|ViggYigg857] -> UpstreamBridge has disconnected
+[19:24:24] [Netty Worker IO Thread #0/INFO]: [ViggYigg857|/[0:0:0:0:0:0:0:1%0]:34376] <-> ServerConnector [lobby] has disconnected
+[19:26:11] [Netty Worker IO Thread #2/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:60398]: Connected via websocket
+[19:26:11] [Netty Worker IO Thread #2/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:60398]: Origin header is http://localhost:8081
+[19:26:11] [Netty Worker IO Thread #2/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:60398]: Logged in as 'ViggYigg857'
+[19:26:11] [Netty Worker IO Thread #2/INFO]: [/[0:0:0:0:0:0:0:1%0]:60398|ViggYigg857] -> UpstreamBridge has connected
+[19:26:11] [Netty Worker IO Thread #2/INFO]: [ViggYigg857|/[0:0:0:0:0:0:0:1%0]:60398] <-> ServerConnector [lobby] has connected
+[19:26:11] [Netty Worker IO Thread #2/ERROR]: [ViggYigg857|/[0:0:0:0:0:0:0:1%0]:60398] <-> ServerConnector [lobby] - encountered exception: net.md_5.bungee.util.QuietException: Server is online mode!
+[19:26:11] [Netty Worker IO Thread #2/INFO]: [ViggYigg857] disconnected with: Exception Connecting:QuietException : Server is online mode!
+[19:26:11] [Netty Worker IO Thread #2/INFO]: [/[0:0:0:0:0:0:0:1%0]:60398|ViggYigg857] -> UpstreamBridge has disconnected
+[19:26:11] [Netty Worker IO Thread #2/INFO]: [ViggYigg857|/[0:0:0:0:0:0:0:1%0]:60398] <-> ServerConnector [lobby] has disconnected
+[19:26:54] [Netty Worker IO Thread #0/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:51604]: Connected via websocket
+[19:26:54] [Netty Worker IO Thread #0/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:51604]: Origin header is http://localhost:8081
+[19:26:54] [Netty Worker IO Thread #0/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:51604]: Logged in as 'Dayrod009'
+[19:26:54] [Netty Worker IO Thread #0/INFO]: [/[0:0:0:0:0:0:0:1%0]:51604|Dayrod009] -> UpstreamBridge has connected
+[19:26:54] [Netty Worker IO Thread #0/INFO]: [Dayrod009|/[0:0:0:0:0:0:0:1%0]:51604] <-> ServerConnector [lobby] has connected
+[19:26:54] [Netty Worker IO Thread #0/ERROR]: [Dayrod009|/[0:0:0:0:0:0:0:1%0]:51604] <-> ServerConnector [lobby] - encountered exception: net.md_5.bungee.util.QuietException: Server is online mode!
+[19:26:54] [Netty Worker IO Thread #0/INFO]: [Dayrod009] disconnected with: Exception Connecting:QuietException : Server is online mode!
+[19:26:54] [Netty Worker IO Thread #0/INFO]: [/[0:0:0:0:0:0:0:1%0]:51604|Dayrod009] -> UpstreamBridge has disconnected
+[19:26:54] [Netty Worker IO Thread #0/INFO]: [Dayrod009|/[0:0:0:0:0:0:0:1%0]:51604] <-> ServerConnector [lobby] has disconnected
+[19:27:10] [Netty Worker IO Thread #2/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:35484]: Connected via websocket
+[19:27:10] [Netty Worker IO Thread #2/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:35484]: Origin header is http://localhost:8081
+[19:27:11] [Netty Worker IO Thread #2/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:35484]: Logged in as 'Dayrod009'
+[19:27:11] [Netty Worker IO Thread #2/INFO]: [/[0:0:0:0:0:0:0:1%0]:35484|Dayrod009] -> UpstreamBridge has connected
+[19:27:11] [Netty Worker IO Thread #2/INFO]: [Dayrod009|/[0:0:0:0:0:0:0:1%0]:35484] <-> ServerConnector [lobby] has connected
+[19:27:11] [Netty Worker IO Thread #2/ERROR]: [Dayrod009|/[0:0:0:0:0:0:0:1%0]:35484] <-> ServerConnector [lobby] - encountered exception: net.md_5.bungee.util.QuietException: Server is online mode!
+[19:27:11] [Netty Worker IO Thread #2/INFO]: [Dayrod009] disconnected with: Exception Connecting:QuietException : Server is online mode!
+[19:27:11] [Netty Worker IO Thread #2/INFO]: [/[0:0:0:0:0:0:0:1%0]:35484|Dayrod009] -> UpstreamBridge has disconnected
+[19:27:11] [Netty Worker IO Thread #2/INFO]: [Dayrod009|/[0:0:0:0:0:0:0:1%0]:35484] <-> ServerConnector [lobby] has disconnected
+[19:27:57] [Netty Worker IO Thread #1/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:39578]: Connected via websocket
+[19:27:57] [Netty Worker IO Thread #1/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:39578]: Origin header is http://localhost:8081
+[19:27:57] [Netty Worker IO Thread #1/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:39578]: Logged in as 'Dayrod009'
+[19:27:57] [Netty Worker IO Thread #1/INFO]: [/[0:0:0:0:0:0:0:1%0]:39578|Dayrod009] -> UpstreamBridge has connected
+[19:27:57] [Netty Worker IO Thread #1/INFO]: [Dayrod009|/[0:0:0:0:0:0:0:1%0]:39578] <-> ServerConnector [lobby] has connected
+[19:27:57] [Netty Worker IO Thread #1/ERROR]: [Dayrod009|/[0:0:0:0:0:0:0:1%0]:39578] <-> ServerConnector [lobby] - encountered exception: net.md_5.bungee.util.QuietException: Server is online mode!
+[19:27:57] [Netty Worker IO Thread #1/INFO]: [Dayrod009] disconnected with: Exception Connecting:QuietException : Server is online mode!
+[19:27:57] [Netty Worker IO Thread #1/INFO]: [/[0:0:0:0:0:0:0:1%0]:39578|Dayrod009] -> UpstreamBridge has disconnected
+[19:27:57] [Netty Worker IO Thread #1/INFO]: [Dayrod009|/[0:0:0:0:0:0:0:1%0]:39578] <-> ServerConnector [lobby] has disconnected
